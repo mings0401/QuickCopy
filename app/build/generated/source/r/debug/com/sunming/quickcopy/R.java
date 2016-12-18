@@ -19,10 +19,8 @@ public final class R {
         public static final int quickcopy=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080003;
-        public static final int button1=0x7f080001;
-        public static final int pager=0x7f080002;
-        public static final int textView1=0x7f080000;
+        public static final int action_settings=0x7f080001;
+        public static final int pager=0x7f080000;
     }
     public static final class layout {
         public static final int activity_alllisttab=0x7f030000;
@@ -38,8 +36,6 @@ public final class R {
         public static final int app_name=0x7f040004;
         public static final int example=0x7f040005;
         public static final int hello_world=0x7f040006;
-        public static final int tab1_button=0x7f040007;
-        public static final int tab2_text=0x7f040008;
         public static final int title_section1=0x7f040000;
         public static final int title_section2=0x7f040001;
         public static final int title_section3=0x7f040002;

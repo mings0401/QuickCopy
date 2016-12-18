@@ -25,19 +25,6 @@ public class FavoritesTab extends Fragment {
 				ViewGroup container, Bundle savedInstanceState) {
 			View view = inflater.inflate(R.layout.activity_favoritestab, null);
 
-			Button button1;
-			button1 = (Button) view.findViewById(R.id.button1);
-			
-			button1.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					// TODO Auto-generated method stub
-					Uri uri = Uri.parse("http://whdghks913.tistory.com");
-			    	Intent it  = new Intent(Intent.ACTION_VIEW,uri);
-			    	startActivity(it);
-				}
-	    	});
-			
 	    	return view;
 		}
 
