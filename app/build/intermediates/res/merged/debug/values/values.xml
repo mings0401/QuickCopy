@@ -3,7 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Example Tabs</string>
+    <string name="app_name">Quick Copy</string>
     <string name="example">Example Source</string>
     <string name="hello_world">Hello world!</string>
     <string name="tab1_button">Button in First Tab</string>
@@ -12,13 +12,9 @@
     <string name="title_section2">Tab 2</string>
     <string name="title_section3">Tab 3</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
 </resources>

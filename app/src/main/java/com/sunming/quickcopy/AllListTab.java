@@ -9,18 +9,18 @@ import android.view.View;
 import android.view.ViewGroup;
 
 @SuppressLint("ValidFragment")
-public class Tab3 extends Fragment {
+public class AllListTab extends Fragment {
 		Context mContext;
 		
-		public Tab3(Context context) {
+		public AllListTab(Context context) {
 			mContext = context;
 		}
 		
 		@Override
 		public View onCreateView(LayoutInflater inflater, 
 				ViewGroup container, Bundle savedInstanceState) {
-			View view = inflater.inflate(R.layout.activity_tab3, null);
-
+			View view = inflater.inflate(R.layout.activity_alllisttab, null);
+			
 	    	return view;
 		}
 

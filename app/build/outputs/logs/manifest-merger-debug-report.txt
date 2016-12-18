@@ -32,7 +32,7 @@ ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/An
 	android:allowBackup
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:13:9-45
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:13:9-43
 	android:theme
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:15:9-40
 activity#com.sunming.quickcopy.MainActivity
@@ -51,21 +51,21 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:22:27-74
-activity#com.sunming.quickcopy.Tab1
+activity#com.sunming.quickcopy.FavoritesTab
 ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:25:9-28:20
 	android:label
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:27:13-51
 	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:26:13-54
-activity#com.sunming.quickcopy.Tab2
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:26:13-62
+activity#com.sunming.quickcopy.AllListTab
 ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:29:9-32:20
 	android:label
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:31:13-51
 	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:30:13-54
-activity#com.sunming.quickcopy.Tab3
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:30:13-60
+activity#com.sunming.quickcopy.SettingTab
 ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:33:9-36:20
 	android:label
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:35:13-51
 	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:34:13-54
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:34:13-60

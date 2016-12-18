@@ -11,14 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 92,
-                        "endColumn": 57,
-                        "endOffset": 145
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 151,
-                        "endColumn": 55,
-                        "endOffset": 202
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -49,14 +35,7 @@
                     "endOffset": 217
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 110,
-                        "endColumn": 52,
-                        "endOffset": 158
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -64,8 +43,8 @@
                     "startLine": 5,
                     "startColumn": 4,
                     "startOffset": 222,
-                    "endColumn": 49,
-                    "endOffset": 267
+                    "endColumn": 47,
+                    "endOffset": 265
                 },
                 "from": {
                     "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
@@ -73,8 +52,8 @@
                         "startLine": 3,
                         "startColumn": 4,
                         "startOffset": 59,
-                        "endColumn": 49,
-                        "endOffset": 104
+                        "endColumn": 47,
+                        "endOffset": 102
                     }
                 }
             },
@@ -82,175 +61,110 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 272,
+                    "startOffset": 270,
                     "endColumn": 50,
-                    "endOffset": 318
+                    "endOffset": 316
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 510,
-                        "endColumn": 50,
-                        "endOffset": 556
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 323,
+                    "startOffset": 321,
                     "endColumn": 52,
-                    "endOffset": 371
+                    "endOffset": 369
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 314,
-                        "endColumn": 52,
-                        "endOffset": 362
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 376,
+                    "startOffset": 374,
                     "endColumn": 59,
-                    "endOffset": 431
+                    "endOffset": 429
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 368,
-                        "endColumn": 59,
-                        "endOffset": 423
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 436,
+                    "startOffset": 434,
                     "endColumn": 79,
-                    "endOffset": 511
+                    "endOffset": 509
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 429,
-                        "endColumn": 79,
-                        "endOffset": 504
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 516,
+                    "startOffset": 514,
                     "endColumn": 48,
-                    "endOffset": 560
+                    "endOffset": 558
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 164,
-                        "endColumn": 48,
-                        "endOffset": 208
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 565,
+                    "startOffset": 563,
                     "endColumn": 48,
-                    "endOffset": 609
+                    "endOffset": 607
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 214,
-                        "endColumn": 48,
-                        "endOffset": 258
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 614,
+                    "startOffset": 612,
                     "endColumn": 48,
-                    "endOffset": 658
+                    "endOffset": 656
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 264,
-                        "endColumn": 48,
-                        "endOffset": 308
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 663,
-                    "endLine": 19,
+                    "startOffset": 661,
+                    "endLine": 15,
                     "endColumn": 12,
-                    "endOffset": 949
+                    "endOffset": 739
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 191,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 481
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/styles.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 954,
-                    "endLine": 22,
+                    "startOffset": 744,
+                    "endLine": 18,
                     "endColumn": 12,
-                    "endOffset": 1109
+                    "endOffset": 811
                 },
                 "from": {
-                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 522,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 679
-                    }
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values/styles.xml"
                 }
             }
         ]

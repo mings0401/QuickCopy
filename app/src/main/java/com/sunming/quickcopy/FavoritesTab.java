@@ -13,17 +13,17 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 @SuppressLint("ValidFragment")
-public class Tab1 extends Fragment {
+public class FavoritesTab extends Fragment {
 		Context mContext;
 		
-		public Tab1(Context context) {
+		public FavoritesTab(Context context) {
 			mContext = context;
 		}
 		
 		@Override
 		public View onCreateView(LayoutInflater inflater, 
 				ViewGroup container, Bundle savedInstanceState) {
-			View view = inflater.inflate(R.layout.activity_tab1, null);
+			View view = inflater.inflate(R.layout.activity_favoritestab, null);
 
 			Button button1;
 			button1 = (Button) view.findViewById(R.id.button1);

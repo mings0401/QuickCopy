@@ -108,11 +108,11 @@ public class MainActivity extends FragmentActivity implements
 			// below) with the page number as its lone argument.
 			switch (position) {
 			case 0:
-				return new Tab1(mContext);
+				return new FavoritesTab(mContext);
 			case 1:
-				return new Tab2(mContext);
+				return new AllListTab(mContext);
 			case 2:
-				return new Tab3(mContext);
+				return new SettingTab(mContext);
 			}
 			return null;
 		}
