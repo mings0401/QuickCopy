@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_tab2.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_tab2.xml"
+    },
+    {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_tab1.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_tab1.xml"
+    },
+    {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_tab3.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_tab3.xml"
+    }
+]

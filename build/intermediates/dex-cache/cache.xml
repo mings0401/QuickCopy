@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="446d006d061992d4618e64463bafb2e7da0ff114">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b0b70cd9c0c8f1712d1471724a8063008585c6f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8cc2cdf5885507ea9ccf635c0d7c470eff6fe241">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8589ea43878f6118454244f45ec058418cd6c337/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minkyujo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_a6b23682bc46c7f1d937f76aa3797eac85f62312/classes.dex" />
+    </item>
+
+</items>
