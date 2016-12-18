@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aa9cc1c-2652-4d04-9e05-d6903b142207" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Database/MySQLiteHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Database/MySQLiteOpenHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Util/BackPressCloseHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Util/MyText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Database/MySQLiteHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Database/MySQLiteHandler.java" />
     </list>
     <ignored path="ExampleFixedTabsSwipe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,11 +92,11 @@
       <file leaf-file-name="MySQLiteHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Database/MySQLiteHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="484">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1730#1747#0" expanded="true" />
+                <element signature="e#1729#1745#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2319,7 +2316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482064670197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="디비 셋팅">
+      <created>1482066141973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1482066141973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2400,7 +2404,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="초기 셋팅 완료!1" />
     <MESSAGE value="Tab이름 설정 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tab이름 설정 완료" />
+    <MESSAGE value="디비 셋팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="디비 셋팅" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2708,11 +2713,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sunming/quickcopy/Database/MySQLiteHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="484">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1730#1747#0" expanded="true" />
+            <element signature="e#1729#1745#0" expanded="true" />
           </folding>
         </state>
       </provider>

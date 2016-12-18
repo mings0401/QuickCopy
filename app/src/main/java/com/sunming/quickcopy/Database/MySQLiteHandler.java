@@ -52,12 +52,12 @@ public class MySQLiteHandler {
     public HashMap getMyText() {
         Cursor c = db.rawQuery("select * from myText;", null);
         int _id = 0; String title="", contents="";
-        HashMap<Integer, MyText> map = new HashMap<Integer, MyText>();
+        HashMap<String, MyText> map = new HashMap<String, MyText>();
 
         while(c.moveToNext()) {
             MyText myText = new MyText(c.getString(0), c.getString(1), c.getString(2), c.getInt(3));
 
-            map.put(c.getInt(0), myText);
+            map.put(c.getString(0), myText);
         }
         return map;
     }
