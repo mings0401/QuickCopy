@@ -8,10 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 @SuppressLint("ValidFragment")
 public class AllListTab extends Fragment {
 		Context mContext;
-		
+		private AdView mAdView;
 		public AllListTab(Context context) {
 			mContext = context;
 		}
@@ -20,8 +23,20 @@ public class AllListTab extends Fragment {
 		public View onCreateView(LayoutInflater inflater, 
 				ViewGroup container, Bundle savedInstanceState) {
 			View view = inflater.inflate(R.layout.activity_alllisttab, null);
-			
-	    	return view;
+
+			settingAd(view);
+
+			return view;
 		}
+
+	/**
+	 * 광고 셋팅해주는 함수
+	 */
+	public void settingAd(View view){
+		//상단 배너 광고
+		AdRequest adRequest = new AdRequest.Builder().build();
+		mAdView = (AdView) view.findViewById(R.id.allListAdView);
+		mAdView.loadAd(adRequest);
+	}
 
 }
