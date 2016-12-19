@@ -20,7 +20,7 @@ public class MyText {
         this.isFavorites = isFavorites;
     }
 
-    public String getId(){
+    public String getUuid(){
         return this.uuid;
     }
 
