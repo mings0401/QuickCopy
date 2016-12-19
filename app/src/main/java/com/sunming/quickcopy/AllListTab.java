@@ -15,6 +15,7 @@ import com.google.android.gms.ads.AdView;
 public class AllListTab extends Fragment {
 		Context mContext;
 		private AdView mAdView;
+
 		public AllListTab(Context context) {
 			mContext = context;
 		}

@@ -30,18 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.sunming.quickcopy.FavoritesTab"
-            android:label="@string/title_section1" >
-        </activity>
-        <activity
-            android:name="com.sunming.quickcopy.AllListTab"
-            android:label="@string/title_section2" >
-        </activity>
-        <activity
-            android:name="com.sunming.quickcopy.SettingTab"
-            android:label="@string/title_section3" >
-        </activity>
+
     </application>
 
 </manifest>

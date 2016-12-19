@@ -1,0 +1,388 @@
+[
+    {
+        "outputFile": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 67,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endColumn": 52,
+                    "endOffset": 221
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values-ko/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 226,
+                    "endColumn": 47,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values-ko/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 47,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 84,
+                    "endOffset": 354
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/values-ko/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 84,
+                        "endOffset": 242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 359,
+                    "endColumn": 105,
+                    "endOffset": 460
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 465,
+                    "endColumn": 170,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 117,
+                    "endOffset": 749
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 754,
+                    "endColumn": 103,
+                    "endOffset": 853
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 858,
+                    "endColumn": 173,
+                    "endOffset": 1027
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1032,
+                    "endColumn": 118,
+                    "endOffset": 1146
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1151,
+                    "endColumn": 123,
+                    "endOffset": 1270
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1275,
+                    "endColumn": 179,
+                    "endOffset": 1450
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1455,
+                    "endColumn": 203,
+                    "endOffset": 1654
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1659,
+                    "endColumn": 104,
+                    "endOffset": 1759
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1764,
+                    "endColumn": 166,
+                    "endOffset": 1926
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1931,
+                    "endColumn": 119,
+                    "endOffset": 2046
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2051,
+                    "endColumn": 176,
+                    "endOffset": 2223
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2228,
+                    "endColumn": 148,
+                    "endOffset": 2372
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2377,
+                    "endColumn": 88,
+                    "endOffset": 2461
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2466,
+                    "endColumn": 87,
+                    "endOffset": 2549
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2554,
+                    "endColumn": 103,
+                    "endOffset": 2653
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2658,
+                    "endColumn": 109,
+                    "endOffset": 2763
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2768,
+                    "endColumn": 90,
+                    "endOffset": 2854
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2859,
+                    "endColumn": 89,
+                    "endOffset": 2944
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2949,
+                    "endColumn": 96,
+                    "endOffset": 3041
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3046,
+                    "endColumn": 84,
+                    "endOffset": 3126
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3131,
+                    "endColumn": 89,
+                    "endOffset": 3216
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3221,
+                    "endColumn": 68,
+                    "endOffset": 3285
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3290,
+                    "endColumn": 113,
+                    "endOffset": 3399
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3404,
+                    "endColumn": 84,
+                    "endOffset": 3484
+                },
+                "from": {
+                    "file": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-ko/values.xml"
+                }
+            }
+        ]
+    }
+]
