@@ -29,7 +29,7 @@ public class AllListTab extends Fragment {
 	private List<ListViewItem> myTextItem;
 	private ListViewAdapter myTextAdapter;
 	private ListView myTextListVeiw;
-
+	private Context _thisContext;
 	public AllListTab(Context context) {
 		mContext = context;
 	}
@@ -37,13 +37,13 @@ public class AllListTab extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater,
 			ViewGroup container, Bundle savedInstanceState) {
+		_thisContext = getActivity().getApplicationContext();
 		View view = inflater.inflate(R.layout.activity_alllisttab, null);
-//		ms = new MySQLiteHandler(mContext);
+		ms = new MySQLiteHandler(_thisContext);
 		settingAd(view);
-//		ms.insertMyText("123123", "rk나다");
-//		myTextListVeiw = (ListView) view.findViewById(R.id.myCopyList);
-
-//		setCurrentMyTextList();
+		ms.insertMyText("123123", "rk나다");
+		myTextListVeiw = (ListView) view.findViewById(R.id.myCopyList);
+		setCurrentMyTextList();
 
 		return view;
 	}
@@ -65,9 +65,9 @@ public class AllListTab extends Fragment {
 		HashMap map = ms.getMyText();
 		myTextItem = new ArrayList<ListViewItem>();
 
-		Iterator<Integer> keys = map.keySet().iterator();
+		Iterator<String> keys = map.keySet().iterator();
 		while ( keys.hasNext() ) {
-			int key = keys.next();
+			String key = keys.next();
 			MyText mytext = (MyText) map.get(key);
 			String uuid = mytext.getUuid();
 			String title = mytext.getTitle();
@@ -78,7 +78,7 @@ public class AllListTab extends Fragment {
 		}
 
 		// 북마크 Adapter 작성
-		myTextAdapter = new ListViewAdapter(mContext, R.layout.listview, myTextItem);
+		myTextAdapter = new ListViewAdapter(_thisContext, R.layout.listview, myTextItem);
 		myTextListVeiw.setAdapter(myTextAdapter);
 
 	}
