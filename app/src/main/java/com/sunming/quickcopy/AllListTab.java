@@ -29,7 +29,7 @@ public class AllListTab extends Fragment {
 	private List<ListViewItem> myTextItem;
 	private ListViewAdapter myTextAdapter;
 	private ListView myTextListVeiw;
-	private Context _thisContext;
+	public Context _thisContext;
 	public AllListTab(Context context) {
 		mContext = context;
 	}
@@ -41,7 +41,6 @@ public class AllListTab extends Fragment {
 		View view = inflater.inflate(R.layout.activity_alllisttab, null);
 		ms = new MySQLiteHandler(_thisContext);
 		settingAd(view);
-		ms.insertMyText("123123", "rk나다");
 		myTextListVeiw = (ListView) view.findViewById(R.id.myCopyList);
 		setCurrentMyTextList();
 

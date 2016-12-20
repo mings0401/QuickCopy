@@ -13,6 +13,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.sunming.quickcopy.AllListTab;
+import com.sunming.quickcopy.Database.MySQLiteHandler;
 import com.sunming.quickcopy.R;
 
 import java.util.List;
@@ -21,6 +23,7 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
 
     private List<ListViewItem> items;
     private LayoutInflater inflater;
+    private MySQLiteHandler ms;
 
     public ListViewAdapter(Context context, int textViewResourceId,
                            List<ListViewItem> items) {
@@ -28,10 +31,12 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
         this.items = items;
         this.inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        ms = new MySQLiteHandler(context);
     }
 
     @Override
-    public View getView(int position, View view, ViewGroup viewGroup) {
+    public View getView(final int position, View view, ViewGroup viewGroup) {
 
         if (view == null) {
             view = inflater.inflate(R.layout.listview, null);
@@ -48,15 +53,13 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
 
         }
 
-//        Button deleteBtn = (Button)view.findViewById(R.id.deleteListBtn);
-//        deleteBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                ((MainActivity)MainActivity.mContext).deleteMyText(item.get_id());
-//                ((MainActivity)MainActivity.mContext).initListView();
-//                ((MainActivity)MainActivity.mContext).setCurrentMyTextList();
-//            }
-//        });
+        Button deleteBtn = (Button)view.findViewById(R.id.deleteListBtn);
+        deleteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ms.delete(item.getUUID());
+            }
+        });
 //
 //        Button copyBtn = (Button)view.findViewById(R.id.copyContentsBtn);
 //        copyBtn.setOnClickListener(new View.OnClickListener() {
