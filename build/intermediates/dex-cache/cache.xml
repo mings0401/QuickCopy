@@ -2,112 +2,112 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0471493303573e5472d0f7cd9ab3cbc579f2a6b8">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b0b70cd9c0c8f1712d1471724a8063008585c6f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_96fcf0b72dd5d541b263cef4276b2f4a57ac5f23/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_d0234eca67c1152acee7e14fd27098b6c056dddf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_597787b932877a2702f58f58a1136595a6073964/classes.dex" />
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_597787b932877a2702f58f58a1136595a6073964.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_77f72708648959f88c02aef812e89de3c91cf65a/classes.dex" />
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-10.0.1_77f72708648959f88c02aef812e89de3c91cf65a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="dc1f7d002cae0bf7a111188970290c10841a4b95">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8589ea43878f6118454244f45ec058418cd6c337/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_9c445837afa9e89014eb6b582097ae021004563c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_038af93bd268a387c73d846c5192e24b0e1ed040/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_eab10a02eb10497a30eaaa0bfc92795ffd97de08/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_8d3d8b0b64c464bc62d98b38f9804092e9de0489/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_ba87140fd1a0570215729343791b2699e8856d7e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_f49e594273ad34d22ba7ce5464bbcb1f19eb7e86/classes.dex" />
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.0.1_f49e594273ad34d22ba7ce5464bbcb1f19eb7e86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_9c445837afa9e89014eb6b582097ae021004563c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_d0234eca67c1152acee7e14fd27098b6c056dddf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-10.0.1_eab10a02eb10497a30eaaa0bfc92795ffd97de08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="638008813a5b8ddebf1eb24e6f37bc15279042d0">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b0b70cd9c0c8f1712d1471724a8063008585c6f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_96fcf0b72dd5d541b263cef4276b2f4a57ac5f23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1c10b532f640cc3e93fd1640bf1c83dd89e08195">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/instant-run_8589ea43878f6118454244f45ec058418cd6c337.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_038af93bd268a387c73d846c5192e24b0e1ed040.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-10.0.1_ba87140fd1a0570215729343791b2699e8856d7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_8d3d8b0b64c464bc62d98b38f9804092e9de0489.jar" />
     </item>
 
 </items>

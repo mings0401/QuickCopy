@@ -134,9 +134,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int common_google_signin_btn_text_light_normal=0x7f020013;
         public static final int common_google_signin_btn_text_light_pressed=0x7f020014;
         public static final int copy=0x7f020015;
-        public static final int ic_launcher=0x7f020016;
-        public static final int list_delete=0x7f020017;
-        public static final int quickcopy=0x7f020018;
+        public static final int favorites_off=0x7f020016;
+        public static final int favorites_on=0x7f020017;
+        public static final int ic_launcher=0x7f020018;
+        public static final int list_delete=0x7f020019;
+        public static final int quickcopy=0x7f02001a;
     }
     public static final class id {
         public static final int action_settings=0x7f0a0013;

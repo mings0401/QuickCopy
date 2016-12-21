@@ -41,9 +41,11 @@ int drawable common_google_signin_btn_text_light_focused 0x7f020012
 int drawable common_google_signin_btn_text_light_normal 0x7f020013
 int drawable common_google_signin_btn_text_light_pressed 0x7f020014
 int drawable copy 0x7f020015
-int drawable ic_launcher 0x7f020016
-int drawable list_delete 0x7f020017
-int drawable quickcopy 0x7f020018
+int drawable favorites_off 0x7f020016
+int drawable favorites_on 0x7f020017
+int drawable ic_launcher 0x7f020018
+int drawable list_delete 0x7f020019
+int drawable quickcopy 0x7f02001a
 int id action_settings 0x7f0a0013
 int id adjust_height 0x7f0a0000
 int id adjust_width 0x7f0a0001

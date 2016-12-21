@@ -41,6 +41,7 @@ public class AllListTab extends Fragment {
 		View view = inflater.inflate(R.layout.activity_alllisttab, null);
 		ms = new MySQLiteHandler(_thisContext);
 		settingAd(view);
+		ms.insertMyText("asd","asd");
 		myTextListVeiw = (ListView) view.findViewById(R.id.myCopyList);
 		setCurrentMyTextList();
 
