@@ -1,5 +1,6 @@
 package com.sunming.quickcopy.Database;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -33,17 +34,27 @@ public class MySQLiteHandler {
        }
    }
 
-    public void updateMyText(String uuid, String title, String contents, int isFavorites){
-        db.execSQL("UPDATE myText SET title = '"+ title +"', contents = '"+ contents +"', isFavorites = "+ isFavorites +" WHERE uuid = " + uuid);
+    public boolean updateMyText(String uuid, String title, String contents, int isFavorites){
+        ContentValues values = new ContentValues();
+        values.put("title", title);
+        values.put("contents", contents);
+        values.put("isFavorites", 0);
+
+        return db.update("myText", values, "uuid=?", new String[]{uuid}) > 0;
     }
 
     /**
      * DB에 네 text집어넣기
      */
-    public void insertMyText (String title, String contents) {
+    public boolean insertMyText (String title, String contents) {
         UUID uuid = UUID.randomUUID();
         String s_uuid = uuid.toString(); //uuid 랜덤 생성
-        db.execSQL("insert into myText (uuid, title, contents, isFavorites) values('"+ s_uuid +"', '"+title+"', '"+contents+"', 0);");
+        ContentValues values = new ContentValues();
+        values.put("uuid", s_uuid);
+        values.put("title", title);
+        values.put("contents", contents);
+        values.put("isFavorites", 0);
+        return db.insert("myText", null, values) > 0;
     }
 
     /**
@@ -66,9 +77,9 @@ public class MySQLiteHandler {
      *
      * @param uuid
      */
-    public void delete(String uuid) {
+    public boolean delete(String uuid) {
         // 입력한 항목과 일치하는 행 삭제
-        db.execSQL("DELETE FROM MYTEXT WHERE uuid='" + uuid + "';");
+        return db.delete("myText", "uuid=?", new String[]{uuid}) > 0;
     }
 
 
