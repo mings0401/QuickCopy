@@ -133,22 +133,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int common_google_signin_btn_text_light_focused=0x7f020012;
         public static final int common_google_signin_btn_text_light_normal=0x7f020013;
         public static final int common_google_signin_btn_text_light_pressed=0x7f020014;
-        public static final int ic_launcher=0x7f020015;
-        public static final int quickcopy=0x7f020016;
+        public static final int copy=0x7f020015;
+        public static final int ic_launcher=0x7f020016;
+        public static final int list_delete=0x7f020017;
+        public static final int quickcopy=0x7f020018;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0012;
+        public static final int action_settings=0x7f0a0013;
         public static final int adjust_height=0x7f0a0000;
         public static final int adjust_width=0x7f0a0001;
         public static final int allListAdView=0x7f0a000b;
         public static final int auto=0x7f0a0006;
-        public static final int copyContentsBtn=0x7f0a0011;
+        public static final int copyContentsBtn=0x7f0a0012;
         public static final int dark=0x7f0a0007;
-        public static final int deleteListBtn=0x7f0a0010;
+        public static final int deleteListBtn=0x7f0a0011;
         public static final int favoritesAdView=0x7f0a000c;
+        public static final int favoritesBtn=0x7f0a000f;
         public static final int icon_only=0x7f0a0003;
         public static final int light=0x7f0a0008;
-        public static final int listViewText=0x7f0a000f;
+        public static final int listViewText=0x7f0a0010;
         public static final int myCopyList=0x7f0a000a;
         public static final int none=0x7f0a0002;
         public static final int pager=0x7f0a000d;

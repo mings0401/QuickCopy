@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/drawable-xhdpi/copy.png",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/drawable-xhdpi/copy.png"
+    },
+    {
         "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },

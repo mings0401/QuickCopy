@@ -11,12 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
 
-import com.sunming.quickcopy.AllListTab;
 import com.sunming.quickcopy.Database.MySQLiteHandler;
-import com.sunming.quickcopy.MainActivity;
 import com.sunming.quickcopy.R;
 
 import java.util.List;
