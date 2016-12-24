@@ -142,29 +142,30 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int quickcopy=0x7f02001b;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0018;
+        public static final int action_settings=0x7f0a0019;
         public static final int activity_add_my_test=0x7f0a0009;
         public static final int addMyTestBtn=0x7f0a000f;
+        public static final int addMyTextAdview=0x7f0a000c;
         public static final int adjust_height=0x7f0a0000;
         public static final int adjust_width=0x7f0a0001;
-        public static final int allListAdView=0x7f0a000c;
+        public static final int allListAdView=0x7f0a0010;
         public static final int auto=0x7f0a0006;
-        public static final int copyContentsBtn=0x7f0a0017;
+        public static final int copyContentsBtn=0x7f0a0018;
         public static final int dark=0x7f0a0007;
-        public static final int deleteListBtn=0x7f0a0016;
-        public static final int favoritesAdView=0x7f0a0010;
-        public static final int favoritesBtn=0x7f0a0014;
+        public static final int deleteListBtn=0x7f0a0017;
+        public static final int favoritesAdView=0x7f0a0011;
+        public static final int favoritesBtn=0x7f0a0015;
         public static final int icon_only=0x7f0a0003;
         public static final int inputContentsEditTxt=0x7f0a000b;
         public static final int inputTitleEditTxt=0x7f0a000a;
         public static final int light=0x7f0a0008;
-        public static final int listViewText=0x7f0a0015;
+        public static final int listViewText=0x7f0a0016;
         public static final int myCopyList=0x7f0a000e;
         public static final int none=0x7f0a0002;
-        public static final int pager=0x7f0a0011;
-        public static final int saveMyTestBtn=0x7f0a0013;
+        public static final int pager=0x7f0a0012;
+        public static final int saveMyTestBtn=0x7f0a0014;
         public static final int searMyTextEditTxt=0x7f0a000d;
-        public static final int settingAdView=0x7f0a0012;
+        public static final int settingAdView=0x7f0a0013;
         public static final int standard=0x7f0a0004;
         public static final int wide=0x7f0a0005;
     }

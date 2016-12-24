@@ -9,17 +9,22 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.sunming.quickcopy.Database.MySQLiteHandler;
 
 public class AddMyText extends Activity {
     private EditText inputTitleEditTxt, inputContentsEditTxt;
     private MySQLiteHandler ms;
+    private AdView mAdView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_my_text);
 
         ms = new MySQLiteHandler(this);
+
+        settingAd();
 
         ActionBar actionBar = getActionBar();
         actionBar = getActionBar();
@@ -50,5 +55,15 @@ public class AddMyText extends Activity {
 
         }
     };
+
+    /**
+     * 광고 셋팅해주는 함수
+     */
+    public void settingAd(){
+        //상단 배너 광고
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView = (AdView) findViewById(R.id.addMyTextAdview);
+        mAdView.loadAd(adRequest);
+    }
 
 }

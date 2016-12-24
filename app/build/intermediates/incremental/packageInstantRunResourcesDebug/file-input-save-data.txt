@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Dec 25 02:05:29 KST 2016
+#Sun Dec 25 02:30:49 KST 2016
 25.file=/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/favorites_off.png
 25.base=/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/resources-debug.ap_
 22.set=ANDROID_RESOURCE

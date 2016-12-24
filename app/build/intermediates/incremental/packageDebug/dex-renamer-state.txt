@@ -1,4 +1,4 @@
-#Sun Dec 25 02:08:48 KST 2016
+#Sun Dec 25 02:30:55 KST 2016
 base.0=/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

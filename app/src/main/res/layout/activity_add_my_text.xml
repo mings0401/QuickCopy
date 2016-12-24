@@ -49,7 +49,7 @@
             ads:adUnitId="@string/banner_ad_unit_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/allListAdView" />
+            android:id="@+id/addMyTextAdview" />
 
     </LinearLayout>
 
