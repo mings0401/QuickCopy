@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml
@@ -15,18 +15,8 @@ ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/An
 		INJECTED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/AndroidManifest.xml:19:5-66
-	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:7:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/AndroidManifest.xml:20:5-78
-	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:8:22-76
 uses-sdk
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:10:5-12:41
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-ads:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/AndroidManifest.xml:22:5-42
 MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/AndroidManifest.xml:17:5-42
@@ -38,15 +28,37 @@ MERGED from [com.android.support:support-v4:24.0.0] /Users/minkyujo/Documents/wo
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.0.0] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:12:9-38
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:8:9-35
 		INJECTED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:12:22-76
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:14:5-89
+	android:name
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:14:30-86
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:15:5-83
+	android:name
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:15:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:16:5-88
+	android:name
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:16:30-85
 application
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:14:5-34:19
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:18:5-37:19
 MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
@@ -55,36 +67,40 @@ MERGED from [com.google.android.gms:play-services-gass:10.0.1] /Users/minkyujo/D
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:24.0.0] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:21:9-41
 	android:allowBackup
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:19:9-35
 	android:icon
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:16:9-43
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:20:9-43
 	android:theme
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:22:9-40
 meta-data#com.google.android.gms.version
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:20:9-22:69
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:22:13-66
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:21:13-58
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:24:13-58
 activity#com.sunming.quickcopy.MainActivity
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:24:9-32:20
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:27:9-35:20
 	android:label
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:29:13-45
 	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:25:13-62
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:28:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:33:27-74
+activity#com.sunming.quickcopy.AddMyTest
+ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:36:9-56
+	android:name
+		ADDED from /Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/AndroidManifest.xml:36:19-44
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/AndroidManifest.xml:25:9-232
 	android:configChanges

@@ -16,6 +16,10 @@
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_favoritestab.xml"
     },
     {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_add_my_test.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_add_my_test.xml"
+    },
+    {
         "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_settingtab.xml",
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_settingtab.xml"
     }
