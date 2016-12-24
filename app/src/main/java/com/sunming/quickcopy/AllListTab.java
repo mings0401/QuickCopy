@@ -4,9 +4,12 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.google.android.gms.ads.AdRequest;
@@ -19,16 +22,17 @@ import com.sunming.quickcopy.Util.MyText;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.Locale;
 
 @SuppressLint("ValidFragment")
 public class AllListTab extends Fragment {
 	Context mContext;
 	private AdView mAdView;
 	MySQLiteHandler ms;
-	private List<ListViewItem> myTextItem;
+	private ArrayList<ListViewItem> myTextItem;
 	private ListViewAdapter myTextAdapter;
 	private ListView myTextListVeiw;
+	private EditText searMyTextEditTxt;
 	public Context _thisContext;
 	public AllListTab(Context context) {
 		mContext = context;
@@ -41,9 +45,33 @@ public class AllListTab extends Fragment {
 		View view = inflater.inflate(R.layout.activity_alllisttab, null);
 		ms = new MySQLiteHandler(_thisContext);
 		settingAd(view);
-		ms.insertMyText("asd","asd");
 		myTextListVeiw = (ListView) view.findViewById(R.id.myCopyList);
 		setCurrentMyTextList();
+
+		searMyTextEditTxt = (EditText) view.findViewById(R.id.searMyTextEditTxt);
+
+		// Capture Text in EditText
+		searMyTextEditTxt.addTextChangedListener(new TextWatcher() {
+
+			@Override
+			public void afterTextChanged(Editable arg0) {
+				// TODO Auto-generated method stub
+				String text = searMyTextEditTxt.getText().toString().toLowerCase(Locale.getDefault());
+				myTextAdapter.filter(text);
+			}
+
+			@Override
+			public void beforeTextChanged(CharSequence arg0, int arg1,
+										  int arg2, int arg3) {
+				// TODO Auto-generated method stub
+			}
+
+			@Override
+			public void onTextChanged(CharSequence arg0, int arg1, int arg2,
+									  int arg3) {
+				// TODO Auto-generated method stub
+			}
+		});
 
 		return view;
 	}

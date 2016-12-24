@@ -15,24 +15,29 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.sunming.quickcopy.Database.MySQLiteHandler;
-import com.sunming.quickcopy.MainActivity;
 import com.sunming.quickcopy.R;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
 
     private List<ListViewItem> items;
+    private ArrayList<ListViewItem> itemsArray;
     private LayoutInflater inflater;
     private MySQLiteHandler ms;
     private ClipboardManager clipboardManager;
 
     public ListViewAdapter(Context context, int textViewResourceId,
-                           List<ListViewItem> items) {
+                           ArrayList<ListViewItem> items) {
         super(context, textViewResourceId, items);
         this.items = items;
+        this.itemsArray = new ArrayList<ListViewItem>();
+        this.itemsArray.addAll(items);
         this.inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
         clipboardManager = (ClipboardManager)context.getSystemService(context.CLIPBOARD_SERVICE);
         ms = new MySQLiteHandler(context);
     }
@@ -95,6 +100,26 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
         });
 
         return view;
+    }
+
+    // Filter Class
+    public void filter(String charText) {
+        charText = charText.toLowerCase(Locale.getDefault());
+        items.clear();
+        if (charText.length() == 0) {
+            items.addAll(itemsArray);
+        }
+        else
+        {
+            for (ListViewItem wp : itemsArray)
+            {
+                if (wp.getTitle().toLowerCase(Locale.getDefault()).contains(charText))
+                {
+                    items.add(wp);
+                }
+            }
+        }
+        notifyDataSetChanged();
     }
 
 }
