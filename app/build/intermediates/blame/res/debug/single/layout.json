@@ -4,6 +4,10 @@
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_alllisttab.xml"
     },
     {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_add_my_text.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_add_my_text.xml"
+    },
+    {
         "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/listview.xml",
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/listview.xml"
     },
@@ -16,8 +20,8 @@
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_favoritestab.xml"
     },
     {
-        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_add_my_test.xml",
-        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/activity_add_my_test.xml"
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/layout_actionbar.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/layout_actionbar.xml"
     },
     {
         "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/activity_settingtab.xml",
