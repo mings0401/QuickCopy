@@ -9,14 +9,15 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.sunming.quickcopy.Database.MySQLiteHandler;
-import com.sunming.quickcopy.ListView.ListViewAdapter;
-import com.sunming.quickcopy.ListView.ListViewItem;
+import com.sunming.quickcopy.ListView.AllList.ListViewAdapter;
+import com.sunming.quickcopy.ListView.AllList.ListViewItem;
 import com.sunming.quickcopy.Util.MyText;
 
 import java.util.ArrayList;
@@ -33,6 +34,7 @@ public class AllListTab extends Fragment {
 	private ListViewAdapter myTextAdapter;
 	private ListView myTextListVeiw;
 	private EditText searMyTextEditTxt;
+	private Button addMyTestBtn;
 	public Context _thisContext;
 	public AllListTab(Context context) {
 		mContext = context;
@@ -48,9 +50,12 @@ public class AllListTab extends Fragment {
 		myTextListVeiw = (ListView) view.findViewById(R.id.myCopyList);
 		setCurrentMyTextList();
 
-		searMyTextEditTxt = (EditText) view.findViewById(R.id.searMyTextEditTxt);
+		//Button Event 추가
+		addMyTestBtn = (Button) view.findViewById(R.id.addMyTestBtn);
+		addMyTestBtn.setOnClickListener(mClickListener);
 
-		// Capture Text in EditText
+		//listview filter event
+		searMyTextEditTxt = (EditText) view.findViewById(R.id.searMyTextEditTxt);
 		searMyTextEditTxt.addTextChangedListener(new TextWatcher() {
 
 			@Override
@@ -75,6 +80,12 @@ public class AllListTab extends Fragment {
 
 		return view;
 	}
+
+	Button.OnClickListener mClickListener = new View.OnClickListener() {
+		public void onClick(View v) {
+			
+		}
+	};
 
 	/**
 	 * 광고 셋팅해주는 함수
