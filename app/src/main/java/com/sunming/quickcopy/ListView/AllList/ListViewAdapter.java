@@ -6,7 +6,9 @@ package com.sunming.quickcopy.ListView.AllList;
 
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +16,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.sunming.quickcopy.AddMyText;
 import com.sunming.quickcopy.Database.MySQLiteHandler;
 import com.sunming.quickcopy.R;
 
@@ -59,6 +62,15 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
             titleText.setText(item.getTitle());
 
         }
+
+//        view.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent startDailogIntent = new Intent(v.getContext().getApplicationContext(), AddMyText.class);
+//                v.startActivity(startDailogIntent);
+//                Log.e("matthew", item.getContents());
+//            }
+//        });
 
         Button deleteBtn = (Button)view.findViewById(R.id.deleteListBtn);
         deleteBtn.setOnClickListener(new View.OnClickListener() {

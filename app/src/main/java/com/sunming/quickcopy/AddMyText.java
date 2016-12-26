@@ -2,7 +2,6 @@ package com.sunming.quickcopy;
 
 import android.app.ActionBar;
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,7 +27,6 @@ public class AddMyText extends Activity {
 
         ActionBar actionBar = getActionBar();
         actionBar = getActionBar();
-        actionBar.setNavigationMode( ActionBar.NAVIGATION_MODE_TABS );
 
         // Custom Actionbar를 사용하기 위해 CustomEnabled을 true 시키고 필요 없는 것은 false 시킨다
         actionBar.setDisplayShowCustomEnabled(true);
@@ -37,13 +35,13 @@ public class AddMyText extends Activity {
         actionBar.setDisplayShowHomeEnabled(false);			//홈 아이콘을 숨김처리합니다.
 
         //layout을 가지고 와서 actionbar에 포팅을 시킵니다.
-        View mCustomView = LayoutInflater.from(this).inflate(R.layout.layout_actionbar, null);
+        View mCustomView = LayoutInflater.from(this).inflate(R.layout.add_mytext_layout_actionbar, null);
         actionBar.setCustomView(mCustomView);
 
         inputTitleEditTxt = (EditText) findViewById(R.id.inputTitleEditTxt);
         inputContentsEditTxt = (EditText) findViewById(R.id.inputContentsEditTxt);
 
-        findViewById(R.id.saveMyTestBtn).setOnClickListener(mClickListener);
+        findViewById(R.id.saveMyTextBtn).setOnClickListener(mClickListener);
     }
 
     Button.OnClickListener mClickListener = new View.OnClickListener() {
@@ -51,8 +49,6 @@ public class AddMyText extends Activity {
             if(ms.insertMyText(inputTitleEditTxt.getText().toString(), inputContentsEditTxt.getText().toString())){
                finish();
             }
-
-
         }
     };
 

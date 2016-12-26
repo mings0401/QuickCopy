@@ -5,27 +5,34 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="13852293682604"
+    timestamp="7983500321910"
     token="4524457925053420013"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="412" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="145" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
     <artifact
-        location="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
+    <build
+        timestamp="7948844768343"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
     <build
         timestamp="13852293682604"
         verifier="FULL_BUILD_REQUESTED" >

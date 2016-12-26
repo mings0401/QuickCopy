@@ -6,15 +6,28 @@
     android:layout_height="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     tools:context="com.sunming.quickcopy.AddMyText"
+    android:windowSoftInputMode="adjustPan"
     android:orientation="vertical"
     android:weightSum="1">
 
-
     <LinearLayout
-        android:layout_weight="0.45"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="50dp">
+
+        <com.google.android.gms.ads.AdView
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addMyTextAdview" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
 
         <EditText
             android:hint="Input Title"
@@ -25,7 +38,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="0.1"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -34,22 +46,13 @@
             android:hint="Input Contents"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:lines="5"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="false"
+            android:minWidth="10.0dip"
+            android:maxWidth="5.0dip"
             android:id="@+id/inputContentsEditTxt" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_weight="0.45"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <com.google.android.gms.ads.AdView
-            ads:adSize="BANNER"
-            ads:adUnitId="@string/banner_ad_unit_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/addMyTextAdview" />
 
     </LinearLayout>
 
