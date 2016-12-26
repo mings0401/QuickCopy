@@ -46,7 +46,7 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
     public View getView(final int position, View view, ViewGroup viewGroup) {
 
         if (view == null) {
-            view = inflater.inflate(R.layout.listview, null);
+            view = inflater.inflate(R.layout.favorites_listview, null);
         }
 
         // 현재 position 의 내용을 View 로 작성하여 리턴
@@ -64,29 +64,10 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
         deleteBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ms.delete(item.getUUID())){
+                if(ms.updateMyText(item.getUUID(), item.getTitle(), item.getContents(), 0)){
+                    item.setIsFavorites(0);
                     items.remove(position);
                     notifyDataSetChanged();
-                }
-            }
-        });
-
-        final Button favoritesBtn = (Button)view.findViewById(R.id.favoritesBtn);
-        favoritesBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(item.getIsFavorites() == 1){
-                    if(ms.updateMyText(item.getUUID(), item.getTitle(), item.getContents(), 0)){
-                        item.setIsFavorites(0);
-                        favoritesBtn.setBackgroundResource(R.drawable.favorites_off);
-                        notifyDataSetChanged();
-                    }
-                }else{
-                    if(ms.updateMyText(item.getUUID(), item.getTitle(), item.getContents(), 1)){
-                        item.setIsFavorites(1);
-                        favoritesBtn.setBackgroundResource(R.drawable.favorites_on);
-                        notifyDataSetChanged();
-                    }
                 }
             }
         });

@@ -6,9 +6,7 @@ package com.sunming.quickcopy.ListView.AllList;
 
 import android.content.ClipboardManager;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Typeface;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,6 +57,13 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
             TextView titleText = (TextView) view.findViewById(R.id.listViewText);
             titleText.setTypeface(Typeface.DEFAULT_BOLD);
             titleText.setText(item.getTitle());
+
+            Button favoritesBtn = (Button)view.findViewById(R.id.favoritesBtn);
+            if(item.getIsFavorites() == 1){
+                favoritesBtn.setBackgroundResource(R.drawable.favorites_on);
+            }else{
+                favoritesBtn.setBackgroundResource(R.drawable.favorites_off);
+            }
 
         }
 

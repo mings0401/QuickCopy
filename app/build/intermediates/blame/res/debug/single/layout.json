@@ -20,6 +20,10 @@
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/edit_mytext_layout_actionbar.xml"
     },
     {
+        "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/favorites_listview.xml",
+        "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/favorites_listview.xml"
+    },
+    {
         "merged": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/build/intermediates/res/merged/debug/layout/listview.xml",
         "source": "/Users/minkyujo/Documents/workspace_android/QuickCopy/app/src/main/res/layout/listview.xml"
     },

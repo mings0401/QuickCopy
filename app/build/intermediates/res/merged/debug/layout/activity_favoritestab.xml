@@ -21,6 +21,9 @@
             android:layout_weight="0.9">
 
             <EditText
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:windowSoftInputMode="stateAlwaysHidden"
                 android:hint="Search"
                 android:layout_width="330dp"
                 android:layout_height="wrap_content"

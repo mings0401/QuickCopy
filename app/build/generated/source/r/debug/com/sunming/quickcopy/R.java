@@ -150,20 +150,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int adjust_width=0x7f0a0001;
         public static final int allListAdView=0x7f0a0010;
         public static final int auto=0x7f0a0006;
-        public static final int copyContentsBtn=0x7f0a001e;
+        public static final int copyContentsBtn=0x7f0a001d;
         public static final int dark=0x7f0a0007;
-        public static final int deleteListBtn=0x7f0a001d;
+        public static final int deleteListBtn=0x7f0a001c;
         public static final int editInputContentsEditTxt=0x7f0a0013;
         public static final int editInputTitleEditTxt=0x7f0a0012;
         public static final int editMyTextAdview=0x7f0a0011;
         public static final int editMyTextBtn=0x7f0a001a;
         public static final int favoritesAdView=0x7f0a0016;
-        public static final int favoritesBtn=0x7f0a001b;
+        public static final int favoritesBtn=0x7f0a001e;
         public static final int icon_only=0x7f0a0003;
         public static final int inputContentsEditTxt=0x7f0a000c;
         public static final int inputTitleEditTxt=0x7f0a000b;
         public static final int light=0x7f0a0008;
-        public static final int listViewText=0x7f0a001c;
+        public static final int listViewText=0x7f0a001b;
         public static final int myCopyList=0x7f0a000e;
         public static final int myFavoritesList=0x7f0a0015;
         public static final int none=0x7f0a0002;
@@ -187,7 +187,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_settingtab=0x7f030005;
         public static final int add_mytext_layout_actionbar=0x7f030006;
         public static final int edit_mytext_layout_actionbar=0x7f030007;
-        public static final int listview=0x7f030008;
+        public static final int favorites_listview=0x7f030008;
+        public static final int listview=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f090000;
