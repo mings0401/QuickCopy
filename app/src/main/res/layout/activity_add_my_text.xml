@@ -31,6 +31,8 @@
 
         <EditText
             android:hint="Input Title"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/inputTitleEditTxt" />
@@ -44,6 +46,8 @@
 
         <EditText
             android:hint="Input Contents"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:lines="5"
