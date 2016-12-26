@@ -16,7 +16,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.sunming.quickcopy.AddMyText;
 import com.sunming.quickcopy.Database.MySQLiteHandler;
 import com.sunming.quickcopy.R;
 
@@ -63,14 +62,11 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
 
         }
 
-//        view.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent startDailogIntent = new Intent(v.getContext().getApplicationContext(), AddMyText.class);
-//                v.startActivity(startDailogIntent);
-//                Log.e("matthew", item.getContents());
-//            }
-//        });
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            }
+        });
 
         Button deleteBtn = (Button)view.findViewById(R.id.deleteListBtn);
         deleteBtn.setOnClickListener(new View.OnClickListener() {
@@ -87,6 +83,7 @@ public class ListViewAdapter extends ArrayAdapter<ListViewItem> {
         favoritesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 if(item.getIsFavorites() == 1){
                     if(ms.updateMyText(item.getUUID(), item.getTitle(), item.getContents(), 0)){
                         item.setIsFavorites(0);

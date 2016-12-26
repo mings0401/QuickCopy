@@ -23,6 +23,8 @@ public class EditMyText extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_my_text);
 
+        settingAd();
+
         ms = new MySQLiteHandler(this);
 
         ActionBar actionBar = getActionBar();
@@ -52,5 +54,15 @@ public class EditMyText extends Activity {
             }
         }
     };
+
+    /**
+     * 광고 셋팅해주는 함수
+     */
+    public void settingAd(){
+        //상단 배너 광고
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView = (AdView) findViewById(R.id.editMyTextAdview);
+        mAdView.loadAd(adRequest);
+    }
 
 }

@@ -37,7 +37,7 @@ public class AllListTab extends Fragment {
 	private ArrayList<ListViewItem> myTextItem;
 	private ListViewAdapter myTextAdapter;
 	private ListView myTextListVeiw;
-	private EditText searMyTextEditTxt;
+	private EditText searchMyTextEditTxt;
 	private Button addMyTestBtn;
 	public Context _thisContext;
 	public AllListTab(Context context) {
@@ -60,13 +60,13 @@ public class AllListTab extends Fragment {
 		addMyTestBtn.setOnClickListener(mClickListener);
 
 		//listview filter event
-		searMyTextEditTxt = (EditText) view.findViewById(R.id.searMyTextEditTxt);
-		searMyTextEditTxt.addTextChangedListener(new TextWatcher() {
+		searchMyTextEditTxt = (EditText) view.findViewById(R.id.searchMyTextEditTxt);
+		searchMyTextEditTxt.addTextChangedListener(new TextWatcher() {
 
 			@Override
 			public void afterTextChanged(Editable arg0) {
 				// TODO Auto-generated method stub
-				String text = searMyTextEditTxt.getText().toString().toLowerCase(Locale.getDefault());
+				String text = searchMyTextEditTxt.getText().toString().toLowerCase(Locale.getDefault());
 				myTextAdapter.filter(text);
 			}
 
